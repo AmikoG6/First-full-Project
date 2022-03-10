@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 .container {
-    max-width: 1439px;
+    max-width: 1475px;
     width: 100%;
     margin: 0 auto;
 }
@@ -19,22 +19,28 @@ header {
     max-width: 1475px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 27px 140px 0 120px;
+    justify-content: space-around;
+    padding-top: 27px;
+    margin: 0 auto;
+    align-items: center;
 }
 .header-wrapper img {
     margin: 13px 0 13px 0;
+    height: 60px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
 }
 .header-wrapper ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 37px 0 37px 230px;
 }
 
-.header-wrapper ul li a {
+.header-wrapper a {
     color: aliceblue;
-    margin-right: 39px;
+    padding-right: 39px;
     font-size: 16px;
 }
 .header-button-box {
@@ -86,6 +92,7 @@ header {
 }
 .main-text p {
     margin-bottom: 18px;
+    line-height: 26px;
 }
 
 .main-button-box {
@@ -100,4 +107,176 @@ header {
     font-size: 15px;
     border: none;
 
+}
+
+/* footer */
+
+
+footer {
+    display: 100%;
+    background-color: #0A22F4;
+}
+
+.info-box {
+    /* max-width: 1475px;
+    width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+}
+.contact-text {
+    max-width: 463px;
+    width: 100%;
+    margin-top: 270px;
+    color: #FFFFFF;
+}
+.contact-text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.contact-text p {
+    margin-bottom: 58px;
+    font-size: 16px;
+    height: 99px;
+    line-height: 26px;
+}
+.map-box iframe {
+    max-width: 460px;
+    width: 100%;
+    height: 197px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px #FFFFFF;
+
+}
+.contact-details {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 22px;
+
+}
+.mobile-box {
+    display: flex;
+    align-items: center;
+}
+.mobile-background-img {
+    position: relative;
+}
+.mobile-logo img {
+    position: absolute;
+    bottom: 26px;
+    left: 21px;
+}
+.mobile-number {
+    padding-left: 20px;
+    padding-right: 97px;
+}
+.email-box {
+    display: flex;
+    align-items: center;
+}
+.email-background-img {
+    position: relative;
+}
+.email-logo img {
+    position: absolute;
+    bottom: 26px;
+    left: 21px;
+}
+.email {
+    padding-left: 20px;
+}
+/* form section */
+.form-box {
+    margin-top: 357px;
+    
+    
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    height: 60px;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    margin-bottom: 40px;
+    
+}
+#name {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 41px;
+}
+#email {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 41px;
+}
+#number {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 41px;
+}
+#notification {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 121px;
+}
+.button-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 145px;
+}
+.button-box button {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    width: 151px;
+    height: 55px;
+    border-color: #0A22F4;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+}
+
+/* bottom footer */
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 105px auto 0 auto;
+    color: #FFFFFF;
+    align-items: center;
+    border-top: solid #426cf8;
+
+}
+.bottom-footer-left {
+    margin-left: 88px;
+}
+.bottom-footer-right {
+    display: flex;
+    align-items: center;
+    margin-right: 85px;
+}
+.bottom-footer-right .right-text {
+    margin-right: 15px;
+}
+.bottom-footer-right .heart-img {
+    margin-right: 10px;
+}
+.bottom-footer-right .heart-text {
+    margin-right: 30px;
 }

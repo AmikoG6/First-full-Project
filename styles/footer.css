@@ -1,0 +1,64 @@
+
+/* form section */
+.form-box {
+    margin-top: 357px;
+    
+    
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    height: 60px;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    margin-bottom: 40px;
+    
+}
+#name {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 41px;
+}
+#email {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 41px;
+}
+#number {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 41px;
+}
+#notification {
+    background-color: #0A22F4;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    padding-top: 121px;
+}
+.button-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 145px;
+}
+.button-box button {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    width: 151px;
+    height: 55px;
+    border-color: #0A22F4;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+}
