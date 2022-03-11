@@ -13,7 +13,6 @@ header {
     width: 100%;
     height: 387.56px;
     background-color: #0020F4;
-    position: relative;
 }
 .header-wrapper {
     max-width: 1475px;
@@ -235,7 +234,6 @@ footer {
     border-top: none;
     border-left: none ;
     border-right: none;
-    padding-top: 121px;
 }
 .button-box {
     display: flex;
@@ -279,4 +277,17 @@ footer {
 }
 .bottom-footer-right .heart-text {
     margin-right: 30px;
+}
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        border-radius:0% 0% 20% 20%;
+    }
+    .navigation {
+        display: none;
+    }
+    .pic-title {
+        max-width: 334px;
+        width: 100%;
+    }
 }
